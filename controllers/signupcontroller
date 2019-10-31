@@ -1,0 +1,35 @@
+<?php
+
+    class signupcontroller{
+        private $_db,
+                $_data;
+        public function __construct(){
+            $this->_db = DB::getInstance();
+        }
+        public function create($fields = array()){
+            if(!$this->_db->insert("aegis",$fields)){
+                throw new Exception("There was an error");
+            }
+            return true;
+        }
+        public function signup($fullname, $email, $icnumber, $phonenumber, $username, $password_1){
+            $visitor = array(
+              "fullname" => $fullname,
+              "email" => $email,
+              "icnumber" => $icnumber,
+              "phonenumber" => $phonenumber,
+              "username" => $username,
+              "password_1" => $password_1,
+            );
+        }
+        public function clockTime($fields = array(), $nic){
+            if(!$this->_db->update("preregisters",$fields,"nic",$nic)){
+                throw new Exception("There was an error");
+            }
+            return true;
+        }
+        public function data(){
+            return $this->_data;
+        }
+    }
+?>

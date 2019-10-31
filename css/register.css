@@ -1,0 +1,122 @@
+
+
+
+.input-container{
+	text-align: center;
+	margin-bottom:5px;
+}
+
+.input-container h1{
+	font-size:10pt;
+	margin-bottom:2px;
+	font-weight:bold;
+	color:black;
+}
+
+.input-container input{
+	width:80%;
+}
+
+.register-button, .login-button{
+	margin-top:10px;
+	background-color: #d6a916;
+	color:white;
+	widows: 10px;0px;
+	padding: 8px 20px;
+	border-radius:5px;
+	border:none;
+}
+
+.qr-text{
+	color: #7b5f04;
+	font-weight:bold;
+	font-size:11pt;
+	text-align:center;
+}
+
+.qr-container{
+	padding:2px;
+	margin-top:25px;
+	width:180px;
+}
+
+.qrscanner-container .qr-container{
+	width: 150px;
+	padding:0;
+	border:none;
+	margin-top:0;
+}
+
+.qr-container img{
+	width:100%;
+	height:100%;
+}
+
+.scanQR-button{
+	margin-top:50px;
+	padding:5px 10px;
+	background-color: #d6a916;
+	color:white;
+	width:60%;
+	border-radius: 5px;
+	border:none;
+	text-align: center;
+}
+
+.scanQR-button input{
+	display:none;
+}
+
+#hidden-form{
+	display:none;
+}
+
+.field-container{
+	width:90%;
+	display:flex;
+	justify-content: space-between;
+	margin-bottom:20px;
+}
+
+.field-name{
+	width:40%;
+	font-weight:bold;
+	font-size:9pt;
+}
+
+.field-value{
+	width:50%;
+
+	align-self: flex-start;
+}
+
+.field-value input{
+	width:100%;
+	font-size:8pt;
+}
+
+.clockin-button{
+	margin-top:20px;
+	padding:5px 10px;
+	background-color: #d6a916;
+	color:white;
+	width:60%;
+	border-radius: 5px;
+	border:none;
+	text-align: center;
+	cursor:pointer;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height:100px;
+}
+
+.exiflogo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height:150px;
+}
