@@ -3,3 +3,18 @@
     height: 300px;
     width:300px;
 }
+
+.text-style {
+color:#0310fd;
+font-weight:bold;
+font-size: 150%;
+}
+
+.icon-style {
+height:30px;
+}
+
+.register-button {
+
+    font-size:20px;
+}

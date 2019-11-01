@@ -10,7 +10,7 @@
 <body>
     <div class="main-container">
         <?php require_once("header.php"); ?>
-        <form action="generateQR.php" method="post">
+        <form  action="exif_clockin.php" method="post" target="_self">
 
             <div class="input-container">
             <text name="dateshift"> Time shift start: </text>  <br>
@@ -29,9 +29,7 @@
             </div>
 
             <div class="input-container">
-                <a href="clockinguard.php">
-    				<div class="register-button">Proceed to PA </div>
-    			</a>
+                <input type="submit" class="register-button" value="Proceed to PA"></input>
             </div>
         </form>
     </div>
