@@ -1,9 +1,3 @@
-<!--
-Document   : EXIF Tag Script
-Author     : josephtinsley
-Description: Read a image EXIF meta data with PHP. Display its content with HTML/CSS/JQuery. 
-http://twitter.com/josephtinsley 
--->
 <html lang = "en">
   <head>
     <meta charset = "utf-8">
@@ -23,7 +17,7 @@ http://twitter.com/josephtinsley
         ul{
             list-style: none;
             padding: 0;
-        } 
+        }
         li{
             background-color: #f2f2f2;
             margin:1px;
@@ -32,9 +26,9 @@ http://twitter.com/josephtinsley
             padding: 0px 5px;
         }
     </style>
-    
+
     <script>
-        
+
         $(function()
         {
             $.get("process.php", function(result) {
@@ -43,13 +37,13 @@ http://twitter.com/josephtinsley
 
         });
     </script>
-    
+
   </head>
   <body>
       <div class="container">
         <div class="row">
             <span id="content"></span>
         </div>
-      </div>    
+      </div>
   </body>
 </html>

@@ -1,11 +1,4 @@
 <?php
-/**
- * Document   : EXIF Tag Script
- * Author     : josephtinsley
- * Description: Read a image EXIF meta data with PHP HTML/JQuery/PHP.
- * http://twitter.com/josephtinsley
-*/
-
 $dir = './images/';
 $files = scandir($dir);
 
