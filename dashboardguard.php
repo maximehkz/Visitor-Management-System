@@ -44,13 +44,18 @@
                 <div class="register-button"> Submit incident reported </div>
             </a>
         </div>
+            <br>
+        <div class="input-container">
+            <a href="">
+                <div class="register-button"> Emergency clock out </div>
+            </a>
+        </div>
                 <br>
         <div class="input-container">
             <a href="exif_clockout.php">
                 <div class="register-button"> Log out </div>
             </a>
         </div>
-
     </div>
 </body>
 </html>

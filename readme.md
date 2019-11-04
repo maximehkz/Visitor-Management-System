@@ -26,21 +26,9 @@ Step 4) Add comment to commit changes you are exactly doing
 
 Step 5) Click on commit
 
-Step 6) Then arbitrary action add URL link GitHub  ("https://github.com/maximehkz/vms.git")
+Step 6) Then arbitrary action add URL link GitHub  ("https://github.com/maximehkz/ciscovms.git")
 
 Step 7) Then push to commit to the branch on Github
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 REMOVE FROM classes/user - line 98

@@ -13,8 +13,12 @@
 				$remember = (Input::get("remember_me") === "on"? true: false);
 				$login = $user->login(Input::get("username"), Input::get("password"), $remember);
 
-				if($login){
+				if($login == "user"){
 					Redirect::to("photoauthin.php");
+				}else if($login == "guard"){
+					Redirect::to("guard.php");
+				}else if($login == "host"){
+					Redirect::to("host.php");
 				}else{
 					echo "<p>Unable to login.</p>";
 				}

@@ -1,0 +1,27 @@
+<html lang = "en">
+  <head>
+      <meta charset="utf-8">
+      <link rel = "stylesheet" href="./css/register.css">
+      <link rel = "stylesheet" href="./css/reset.css">
+      <link rel = "stylesheet" href="./css/global.css">
+      <title>EXIF with DB image </title>
+    <script>
+
+        $(function()
+        {
+            $.get("exifprocess.php", function(result) {
+                $("#content").html(result);
+            });
+
+        });
+    </script>
+
+  </head>
+  <body>
+      <div class="container">
+        <div class="row">
+            <span id="content"></span>
+        </div>
+      </div>
+  </body>
+</html>

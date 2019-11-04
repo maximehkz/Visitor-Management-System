@@ -36,7 +36,7 @@
 
             <br>
             <div class="input-container">
-                <a href="exif_in.php">
+                <a href="exif_clockin.php">
     				<div class="register-button"> Try again </div>
     			</a>
             </div>

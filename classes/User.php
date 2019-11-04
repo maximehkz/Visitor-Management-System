@@ -62,6 +62,20 @@
 			}
 			return false;
 		}
+
+		public function guardClockIn(){
+			$this->_db->insert("guard_sessions",array(
+				'guard_id' => $this->data()->user_id,
+				'clock_in_time' => date("Y:m:d h:i:s")
+			));
+		}
+
+		public function guardClockOut(){
+			$this->_db->update("guard_sessions",array(
+				'clock_out_time' => date("Y:m:d h:i:s")
+			),"guard_id", $this->data()->user_id);
+		}
+
 		public function login($username = null, $password = null, $remember = false){
 
 			if(!$username && !$password && $this->exists()){
@@ -89,7 +103,15 @@
 							}
 							Cookie::put($this->_cookieName, $hash, Config::get("remember/cookie_expiry"));
 						}
-						return true;
+						if($this->data()->type == "user"){
+							return "user";
+						}else if($this->data()->type == "guard"){
+							return "guard";
+						}else if($this->data()->type == "host"){
+							return "host";
+						}else{
+							return "error";
+						}
 					}
 				}
 			}
