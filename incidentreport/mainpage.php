@@ -111,7 +111,18 @@ error_reporting(0);
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>My web</title>
+	<meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+    <link rel="stylesheet" href="./css/register.scss">
+
+    <link rel="stylesheet" href="./css/reset.css">
+
+    <link rel="stylesheet" href="./css/global.scss">
+
+    <link rel="stylesheet" href="./css/exif.css">
+	<title>Report incident</title>
 	<link rel="stylesheet" type="text/css" href="stylesheet.css">
 	<style type="text/css">
 	label
