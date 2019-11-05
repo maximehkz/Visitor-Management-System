@@ -18,30 +18,24 @@ $user = new User();
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/global.scss">
     <link rel="stylesheet" href="./css/exif.css">
-    <title>Guard dashboard</title>
+    <title>Host Dahsboard</title>
 </head>
 <body>
     <div class="main-container">
         <?php require_once("header.php"); ?>
-
-	<div class="input-container">
-                <p style="font-size:20px;" > Guard Dashboard: </p>
-                <br>
-            <a href="register.php">
-                <img style=" align-content: justify; height:50px; width:50px;" src="./image/adduser.png">
-				<div class="register-button">Pre-registration of Visitors </div>
-			</a>
-        </div>
+        <div class="input-container">
+            <div class="input-icon-container">
+                <img src="./image/adduser.png">
+            </div>
+            <a class="linkstyle" href="register.php">Pre-Registration of visitor </a>
+            </div>
 
         <div class="input-container">
-            <a href="joseph_part/mainpage.php">
-                <img style=" align-content: justify; height:50px; width:50px;" src="./image/warning.png">
-                <div class="register-button">Report Incident </div>
-            </a>
+            <div class="input-icon-container">
+                <img src="./image/warning.png">
+            </div>
+            <a class="linkstyle" href="incidentreport/mainpage.php"> Report incident </a>
         </div>
-                <br>
-
-
     </div>
 </body>
 </html>

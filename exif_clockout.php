@@ -6,14 +6,14 @@
     <link rel="stylesheet" href="./css/register.scss">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/global.scss">
-    <title>Preregister Visitor</title>
+    <title>EXIF-Clock out PA</title>
 </head>
 <body>
     <div class="main-container">
         <?php require_once("header.php"); ?>
 
                 <div class="input-container">
-                <text style="font-size:20px;"> Clock out Guard: </text>
+                <text style="font-size:20px;font-weight:bold;"> Clock out Guard: </text>
                 </div>
             <br>
             <div class="input-container">
@@ -23,7 +23,7 @@
                             <form action="upload-clockout.php" method="POST" enctype="multipart/form-data">
                                 <img src="./image/cameraicon.png" class="center" onclick="document.getElementById('imageUpload').click()"></img>
                                 <input type="file" name="image" accept="image/*" id="imageUpload" alt="Submit" style="display:none">
-                                <input class="register-button" type="submit" name="submit_image" value="Clock out">
+                                <input class="buttonsub-style" type="submit" name="submit_image" value="Clock out">
                             </form>
                         </div>
 

@@ -23,46 +23,46 @@ $user = new User();
 <body>
     <div class="main-container dashboardguard-container">
         <?php require_once("header.php"); ?>
-        <h1>Guard Dashboard:</h1>
+        <h1 style="font-weight:bold;"> Guard Dashboard: </h1>
 	    <div class="input-container">
             <div class="input-icon-container">
                 <img src="./image/adduser.png">
             </div>
-			<div class="register-button"><a href="adhoc.html">Registration on site</a></div>
-		</div>
+            <a class="linkstyle" href="adhoc.html">  Registration on site   </a>
+		    </div>
 
         <div class="input-container">
             <div class="input-icon-container">
                 <img src="./image/adduser.png">
             </div>
-			<div class="register-button"><a href="qrscanner.php">Pre-register visitor in </a></div>
+            <a class="linkstyle" href="qrscanner.php"> Pre-Register Visitor in  </a>
         </div>
 
         <div class="input-container">
 			   <div class="input-icon-container">
                 <img src="./image/deleteuser1.png">
                 </div>
-				<div class="register-button"><a href="qrscannerout.php">Pre-register visitor out </a> </div>
+			    <a class="linkstyle" href="qrscannerout.php">Pre-register visitor out </a>
 		        </div>
 
         <div class="input-container">
             <div class="input-icon-container">
             <img src="./image/warning.png">
             </div>
-            <div class="register-button"><a href="joseph_part/mainpage.php"> Report Incident </a></div>
+            <a class="linkstyle" href="incidentreport/mainpage.php"> Report Incident </a>
             </div>
 
         <div class="input-container">
                 <div class="input-icon-container">
                 <img src="./image/submitreport.png">
                 </div>
-                <div class="register-button"> <a href="joseph_part/reports.php"> Submit incident reported</a> </div>
+            <a class="linkstyle" href="incidentreport/reports.php"> Submit incident reported </a>
                 </div>
         <div class="input-container">
             <div class="input-icon-container">
                 <img src="./image/logout.png">
             </div>
-                <div class="register-button"><a href="exif_clockout.php"> Log out </a> </div>
+            <a class="linkstyle" href="exif_clockout.php"> Log out </a>
             </div>
     </div>
 </body>

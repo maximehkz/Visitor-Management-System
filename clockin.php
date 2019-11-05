@@ -12,10 +12,11 @@
 <html lang="en" dir="ltr">
     <head>
         <meta charset="utf-8">
-        <title>Clock In</title>
-        <link rel = "stylesheet" href="./css/register.css">
-        <link rel = "stylesheet" href="./css/reset.css">
-        <link rel = "stylesheet" href="./css/global.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <link rel="stylesheet" href="./css/register.scss">
+        <link rel="stylesheet" href="./css/reset.css">
+        <link rel="stylesheet" href="./css/global.scss">
+        <title> Clock in pre-register </title>
     </head>
     <body>
         <div class="main-container clockin-container">

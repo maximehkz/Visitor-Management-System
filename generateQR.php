@@ -5,7 +5,7 @@ require_once("Core/init.php");
 if(Input::exists()){
 
     $qr = new QRController();
-    
+
     try{
 
          $qr->create(array(
@@ -36,10 +36,11 @@ if(Input::exists()){
 <html lang="en" dir="ltr">
     <head>
         <meta charset="utf-8">
-        <title>QRCode</title>
-        <link rel="stylesheet" href="./css/register.css">
-        <link rel="stylesheet" href="./css/global.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <link rel="stylesheet" href="./css/register.scss">
         <link rel="stylesheet" href="./css/reset.css">
+        <link rel="stylesheet" href="./css/global.scss">
+        <title> QR code Generation </title>
     </head>
     <body>
         <div class="main-container">

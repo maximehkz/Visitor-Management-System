@@ -6,13 +6,6 @@ use IPV4address from the wifi
 make sure your device phone and laptop connect to the same wifi
 take URL write it on the mobile browser and add the directories of the file to be tested
 
-#Open a new command prompt and cd to project directory then run
-
-Step 18) php artisan serve -- this will start a local development server at port 8000 (you can specify host and port of your choice if you like)
-
-You will be connected then enter into web browser : localhost:8000 or the url provided into the command prompt
-"#vms"
-
 #Commit and push to the branch
 
 
@@ -38,5 +31,5 @@ self::update(array(
 							'last_login' => date("Y-m-d h:i:a")
 						),$this->data()->user_id);
 "# ciscovms"
-"# aegisfinal" 
-"# aegisfinal" 
+"# aegisfinal"
+"# aegisfinal"

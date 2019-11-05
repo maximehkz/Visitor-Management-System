@@ -2,11 +2,11 @@
 <html lang="en" dir="ltr">
 <head>
     <meta charset="utf-8">
-    <link rel = "stylesheet" href="./css/register.css">
-    <link rel = "stylesheet" href="./css/reset.css">
-    <link rel = "stylesheet" href="./css/global.css">
-        <link rel = "stylesheet" href="./css/exif.css">
-    <title>Preregister Visitor</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="./css/register.scss">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/global.scss">
+    <title>EXIF-Clock out Correct</title>
 </head>
 <body>
     <div class="main-container">
@@ -14,11 +14,11 @@
 
             <div class="input-container">
 
-                <img src="./image/unlock.png" class="center"></img>
-                <br>
-                <text style="font-size:20px;"> You have succesfully been clocked out ! </text>
+            <img src="./image/unlock.png" class="center"></img>
             </div>
-
+            <div class="input-container">
+            <text style="font-size:20px;font-weight:bold;"> You have been succesfully clocked out ! </text>
+            </div>
             <br>
 
             <div class="input-container">
@@ -37,7 +37,7 @@
                     <br>
             <div class="input-container">
                 <a href="logout.php">
-    				<div class="register-button"> Log out </div>
+    				<div class="buttonsub-style"> Log out </div>
     			</a>
             </div>
 

@@ -52,7 +52,7 @@
             </div>
 
             <div class="input-container">
-            <img style=" align-content: justify; height:50px; width:50px;" src="./image/lock.png">
+            <img class="login-icon" src="./image/lock.png">
                 <input type="password" name="password">
             </div>
 

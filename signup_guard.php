@@ -81,7 +81,7 @@
 	<link rel="stylesheet" href="./css/reset.css">
 	<link rel="stylesheet" href="./css/global.scss">
 	<link rel="stylesheet" href="./css/exif.css">
-    <title>Preregister Visitor</title>
+    <title>Sign up guards</title>
 </head>
 <body>
     <div class="main-container">
@@ -117,7 +117,7 @@
             </div>
 			<input type="hidden" name="token" value="<?php echo Token::generate(); ?>">
             <div class="input-container">
-                <button type="submit" class="register-button">Sign up</button>
+                <button type="submit" class="linkstyle">Sign up</button>
             </div>
         </form>
     </div>

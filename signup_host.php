@@ -81,7 +81,7 @@
 	<link rel="stylesheet" href="./css/reset.css">
 	<link rel="stylesheet" href="./css/global.scss">
 	<link rel="stylesheet" href="./css/exif.css">
-    <title>Preregister Visitor</title>
+    <title>Sign up host</title>
 </head>
 <body>
     <div class="main-container">

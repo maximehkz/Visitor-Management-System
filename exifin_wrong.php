@@ -2,22 +2,23 @@
 <html lang="en" dir="ltr">
 <head>
     <meta charset="utf-8">
-    <link rel = "stylesheet" href="./css/register.css">
-    <link rel = "stylesheet" href="./css/reset.css">
-    <link rel = "stylesheet" href="./css/global.css">
-        <link rel = "stylesheet" href="./css/exif.css">
-    <title>Preregister Visitor</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<link rel="stylesheet" href="./css/register.scss">
+	<link rel="stylesheet" href="./css/reset.css">
+	<link rel="stylesheet" href="./css/global.scss">
+
+    <title>EXIF-Clock in Wrong </title>
 </head>
 <body>
     <div class="main-container">
         <?php require_once("header.php"); ?>
+        <div class="input-container">
 
-            <div class="input-container">
-
-                <img src="./image/unlock.png" class="center"></img>
-                <br>
-                <text style="font-size:20px;"> You have not been succesfully clocked in ! </text>
-            </div>
+        <img src="./image/unlock.png" class="center"></img>
+        </div>
+        <div class="input-container">
+        <text style="font-size:20px;font-weight:bold;"> You have not been succesfully been clocked in ! </text>
+        </div>
 
             <br>
 
@@ -37,7 +38,7 @@
             <br>
             <div class="input-container">
                 <a href="exif_clockin.php">
-    				<div class="register-button"> Try again </div>
+    				<div class="buttonsub-style"> Try again </div>
     			</a>
             </div>
 

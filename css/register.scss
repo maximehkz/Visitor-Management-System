@@ -131,37 +131,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* MOBILE */
 /*=================
 Guard Dashboard CSS
@@ -201,4 +170,43 @@ Guard Dashboard CSS
 align-content: justify;
 height:50px;
 width:50px;
+}
+
+.buttonsub-style {
+width: 150px;
+margin-left: 0%;
+display: block;
+background-color: #d6a916;
+color:white;
+font-size:20px;
+border-radius:5px;
+text-align:center;
+}
+
+.linkstyle {
+	display: block;
+	background-color: #d6a916;
+	color:white;
+	font-size:20px;
+	text-align:center;
+	border-radius:5px;
+	widows: 10px;0px;
+
+	}
+
+}
+.image-style {
+    display:block;
+    height: 300px;
+    width:300px;
+}
+
+.text-style {
+color:#0310fd;
+font-weight:bold;
+font-size: 150%;
+}
+
+.icon-style {
+height:30px;
 }
