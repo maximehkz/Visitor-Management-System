@@ -54,7 +54,8 @@
                         'username' => Input::get("username"),
 						'password' => Hash::make(Input::get("password"), $salt),
 						'salt' => $salt,
-						'created_at' => date("Y-m-d h:i:sa")
+						'created_at' => date("Y-m-d h:i:sa"),
+						'type' => "host"
 					));
 					Session::flash("home","Welcome,".Input::get("username")."!");
 					Session::put("username",Input::get("username"));
@@ -74,10 +75,12 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
-    <meta charset="utf-8">
-    <link rel = "stylesheet" href="./css/register.css">
-    <link rel = "stylesheet" href="./css/reset.css">
-    <link rel = "stylesheet" href="./css/global.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<link rel="stylesheet" href="./css/register.scss">
+	<link rel="stylesheet" href="./css/reset.css">
+	<link rel="stylesheet" href="./css/global.scss">
+	<link rel="stylesheet" href="./css/exif.css">
     <title>Preregister Visitor</title>
 </head>
 <body>

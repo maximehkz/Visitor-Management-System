@@ -2,9 +2,10 @@
 <html lang="en" dir="ltr">
 <head>
     <meta charset="utf-8">
-    <link rel = "stylesheet" href="./css/register.css">
-    <link rel = "stylesheet" href="./css/reset.css">
-    <link rel = "stylesheet" href="./css/global.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="./css/register.scss">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/global.scss">
     <title>Preregister Visitor</title>
 </head>
 <body>
@@ -21,7 +22,7 @@
                 <form action="upload-clockin.php" method="POST" enctype="multipart/form-data">
                     <img src="./image/cameraicon.png" class="center" onclick="document.getElementById('imageUpload').click()"></img>
                     <input type="file" name="image" accept="image/*" id="imageUpload" alt="Submit" style="display:none">
-                    <input class="register-button" type="submit" name="submit_image" value="Upload">
+                    <input class="register-button" type="submit" name="submit_image" value="Clock in">
                 </form>
             </div>
 <!-- pass id to the validation controller

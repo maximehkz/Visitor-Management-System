@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+
+<style>
+#main {
+  width: 1520px;
+  border: 1px dotted black;
+}
+
+h1 {
+	margin: 0;
+    display: inline-block;
+	color: white;
+}
+
+#buttons {
+	background-color: red;
+	color: white;
+}
+
+.button {
+	background-color: #7d750a;
+	color: white;
+cursor: pointer;
+}
+
+
+.adhoc input{
+	
+text-align: center;
+
+height: 40px;
+padding: 0px 10px;
+margin-buttom: 4px;
+border: none;
+backgrpund-color: #ccc;
+font-family: arial;
+font-size: 16px;
+color: #111;
+line-height:40px;
+border: 1px solid black;
+}
+	
+</style>
+</head>
+<body>
+<div text-align: center id="main" style="background-color:#35506b">
+  <h1 align="center">Cisco SECURITY (usman`s part)</h1><button id="buttons" style="float: right;">Guards Interface</button>
+</div>
+<div align="center">
+    <input type="image" name="imageField" id="imageField" src="cisco-logo.png"   width="150" height="150">
+  </div>
+
+<<div>
+<form  class = "adhoc" action="adhoc.php" method="post" autocomplete="off">
+
+  <div align="center">	 	
+  
+  <input type="text" name="visitorname" placeholder="Visitor`s name" id ="visitorname" required>
+  <br>
+  <input type="text" name="ic/passport" placeholder="IC/Passport NO." id ="ic/passport" required>
+  <br>
+  <input type="number"  name="phonenumber" placeholder="Phone Number" id ="phonenumber" required>
+  <br>
+  <input type="text" name="unitno" placeholder="Unit Number" id ="unitno" required>
+  <br>
+  <input  type="date" name="date" id ="date" required>
+  <br>
+  <input  type="time" name="timein" value ="Time-In"id ="timein">
+  <br>
+  <input type="time" name="timeout" placeholder="Time-Out" id ="timeout">
+  <br>
+  <br>
+  <br>
+  <button    type= "submit" class="button" name="submit">Enter </button>
+  
+  
+  
+  </div>
+</form>
+    
+</div>
+
+
+</body>
+</html>

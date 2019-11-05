@@ -16,9 +16,9 @@
 				if($login == "user"){
 					Redirect::to("photoauthin.php");
 				}else if($login == "guard"){
-					Redirect::to("guard.php");
+					Redirect::to("exif_clockin.php");
 				}else if($login == "host"){
-					Redirect::to("host.php");
+					Redirect::to("dashboardhost.php");
 				}else{
 					echo "<p>Unable to login.</p>";
 				}
@@ -33,27 +33,32 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
-    <meta charset="utf-8">
-    <link rel = "stylesheet" href="./css/register.css">
-    <link rel = "stylesheet" href="./css/reset.css">
-    <link rel = "stylesheet" href="./css/global.css">
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="./css/register.scss">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/global.scss">
     <title>Login</title>
 </head>
 <body>
     <div class="main-container">
         <?php require_once("header.php"); ?>
-        <form action="" method="post">
+		<form action="" method="post">
             <div class="input-container">
-                <h1>Username:</h1>
-                <input type="text" name="username">
+			<div class="input-icon-container">
+            <img class="login-icon" src="./image/male.png" >
+			</div>
+            <input type="text" name="username">
             </div>
+
             <div class="input-container">
-                <h1>Password:</h1>
+            <img style=" align-content: justify; height:50px; width:50px;" src="./image/lock.png">
                 <input type="password" name="password">
             </div>
+
 			<input type="hidden" name="token" value="<?php echo Token::generate();?>">
             <div class="input-container">
-    				<button class="register-button">Login </button	>
+    		<button class="register-button">Login </button	>
             </div>
         </form>
     </div>

@@ -1,0 +1,177 @@
+td, th {
+    text-align: center;
+    padding: 12px;
+}
+	.form {
+    display: flex;
+    justify-content: center;
+    height: 608px;
+    align-items: center;
+    flex-direction: column;
+}
+input[type="file"] {
+    display: none;
+}
+.input {
+   display: block;
+    background: #091280;
+    padding: 3px 10px;
+    margin: 5px 0;
+    width: 95%;
+    border: none;
+    color:#fff;
+}
+.tik {
+    width: 25px;
+    position: absolute;
+    right: -38px;
+    top: 4px;
+    display:none;
+}
+::placeholder {
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 4px;
+}
+
+form {
+    width: 350px;
+    padding: 25px;
+    position:relative;
+}
+.reports {
+    width: 450px;
+    margin: 0 auto;
+}
+button.incibutton {
+    background: #af8f3c;
+    border: none;
+    padding: 10px 50px;
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+ul
+{
+    padding-left:0;
+}
+.reports p {
+    padding: 9px 0;
+    background: #e84e32de;
+    color: #000;
+    border-bottom: 1px solid #ce533d;
+}
+.reports ul li {
+   list-style-type: none;
+    width: 450px;
+    height: auto;
+    margin-top: -53px;
+    min-height: 37px;
+}
+.reports ul li a {
+    color: #0c0c88;
+    text-decoration: none;
+    font-size: 18px;
+    width: 100%;
+    display: block;
+}
+body
+{
+     margin: 0;
+     font-family:arial;
+}
+
+input.submit-btn {
+  background: #af8f3c;
+    border: 1px solid #af8f3c;
+    color: #ffff;
+    padding: 8px 40px;
+    margin-top: 18px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+}
+.dropdown
+	{
+		display: none;
+	}
+input.submit-btn:hover {
+    background: inherit;
+    border: 1px solid #af8f3c;
+    color:#000;
+}
+a.reportbtn {
+    background: blue;
+    color: #fff;
+    padding: 6px 10px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+span.comments {
+    width: 200px;
+    display: block;
+    word-break: break-word;
+}
+.table {
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-top:30px;
+}
+.inner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.dropdown {
+    background: #fff;
+    margin-top: 64px;
+}
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image, .video {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+.main span, .text-cont span {
+    display: inline-block;
+    margin-right: 45px;
+    color: #000;
+    font-weight: bold;
+}
+td, th {
+    max-width: 300px;
+}
+.status label {
+    display: inline-block;
+    margin-right: 15px;
+}
+.status form
+{
+    text-align: left;
+    padding-left: 38px;
+}
+.status {
+    margin-top: 15px;
+}
+.status input[type="submit"] {
+    background: #a3842a;
+    border: none;
+    margin-left: 20px;
+    padding: 7px 15px;
+    color: #fff;
+}

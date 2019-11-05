@@ -20,6 +20,7 @@ if(Input::getfiles("image")["name"]){
                   if($user->find($id)){
                       if($user->data()->type == "guard"){
                           $user->guardClockIn();
+                        Redirect::to("exifin_correct.php");
                       }
                   }
                   // Redirect::to("exifin_correct.php");

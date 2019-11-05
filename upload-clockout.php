@@ -20,14 +20,15 @@ if(Input::getfiles("image")["name"]){
                   if($user->find($id)){
                       if($user->data()->type == "guard"){
                           $user->guardClockOut();
+                          Redirect::to("exifout_correct.php");
                       }
                   }
                   // Redirect::to("exifin_correct.php");
               }else{
-                  Redirect::to("exifin_wrong.php");
+                  Redirect::to("exifout_correct.php");
               }
           }else{
-              Redirect::to("exifin_wrong.php");
+              Redirect::to("exifout_wrong.php");
           }
    }else{
        echo "There is an error uploading the photo";
