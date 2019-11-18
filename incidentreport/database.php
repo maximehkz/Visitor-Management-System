@@ -2,7 +2,7 @@
 
 
 
-	//For local servers using xampp or wamp
+	
 	 $servername = 'localhost';
 	 $username = 'root';
 	 $password = '';
