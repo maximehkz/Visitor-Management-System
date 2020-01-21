@@ -21,7 +21,7 @@ Click on this youtube video link to watch a sample demo: https://www.youtube.com
 
 #To use  project on phone web browser
 
-1) Open command prompt (Windows OS). 
+1) Open your terminal. 
 
 2) Write ipconfig.
 
