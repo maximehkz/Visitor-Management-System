@@ -1,35 +1,36 @@
+Project Aegis consist of a web app being built in PHP programming language and will serve as a Visitor Management System.  
 
-#To check project on phone usage
-open command prompt
-write ipconfig
-use IPV4address from the wifi
-make sure your device phone and laptop connect to the same wifi
-take URL write it on the mobile browser and add the directories of the file to be tested
+This project is part of my final year project, built along with 3 other members for a client called Cisco Security. 
 
-#Commit and push to the branch
+Contributors: 
 
+Muhammad Usman Akhtar 
 
-Step 1) Locate the file on windows, right click on Git GUI on the file directory of the project
+Irfan Nekakhtar 
 
-Step 2) Once in GITGUI click Stage changed
+Maxime-William Hakizimana
 
-Step 3) Click on Continue
+Joseph Jomon 
 
-Step 4) Add comment to commit changes you are exactly doing
-
-Step 5) Click on commit
-
-Step 6) Then arbitrary action add URL link GitHub  ("https://github.com/maximehkz/ciscovms.git")
-
-Step 7) Then push to commit to the branch on Github
+Maxime-William Hakizimana
 
 
-REMOVE FROM classes/user - line 98
+Click on this youtube video link to watch a sample demo: https://www.youtube.com/channel/UCA48akRpruXZByOBCwf84iQ 
+
+-------------------------------------
 
 
-self::update(array(
-							'last_login' => date("Y-m-d h:i:a")
-						),$this->data()->user_id);
-"# ciscovms"
-"# aegisfinal"
-"# aegisfinal"
+#To use  project on phone web browser
+
+1) Open command prompt (Windows OS). 
+
+2) Write ipconfig.
+
+3) Use IPV4/V6 address (Usually the one starting with 192.68. ...)
+
+4) Make sure your device phone and laptop connect to the same wifi.
+
+5) Take URL write it on the mobile browser.
+
+6) Add the directories of the file to start. Example: https://192.168.43/vms/login.php 
+
