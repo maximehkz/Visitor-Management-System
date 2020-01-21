@@ -12,7 +12,6 @@ Maxime-William Hakizimana
 
 Joseph Jomon 
 
-Maxime-William Hakizimana
 
 
 Click on this youtube video link to watch a sample demo: https://www.youtube.com/channel/UCA48akRpruXZByOBCwf84iQ 
