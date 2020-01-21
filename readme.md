@@ -21,15 +21,15 @@ Click on this youtube video link to watch a sample demo: https://www.youtube.com
 
 #To use  project on phone web browser
 
-1) Open your terminal. 
+1) Open your terminal
 
-2) Write ipconfig.
+2) Write ipconfig
 
 3) Use IPV4/V6 address (Usually the one starting with 192.68. ...)
 
-4) Make sure your device phone and laptop connect to the same wifi.
+4) Make sure your device phone and laptop connect to the same wifi
 
-5) Take URL write it on the mobile browser.
+5) Take URL write it on the mobile browser
 
 6) Add the directories of the file to start. Example: https://192.168.43/vms/login.php 
 
