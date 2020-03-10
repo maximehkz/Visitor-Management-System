@@ -23,7 +23,7 @@ Click on this youtube video link to watch a sample demo: https://www.youtube.com
 
 1) Open your terminal
 
-2) Write ipconfig
+2) Write ipconfig on Windows OS or "ifconfig" on mac OS
 
 3) Use IPV4/V6 address (Usually the one starting with 192.68. ...)
 
